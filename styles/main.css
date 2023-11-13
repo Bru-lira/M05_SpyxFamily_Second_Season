@@ -1,0 +1,95 @@
+/* ETAPA 4 */
+main {
+    flex: 1;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1440;
+}
+.main_info{
+    width: 100%;
+    max-width: 570px;
+}
+.main_info p{
+    font-size: 18px ;
+    margin: 20px 0 28px;
+}
+.main_info div{
+    display: flex;
+    column-gap: 32px;
+
+}
+.main_info div a, .main_info div button{
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align:center;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+}
+.main_info div a {
+    background: var(--red);
+}
+.main_info div button {
+    background: transparent;
+    border: 1px solid var(--green);
+}
+
+/* ETAPA 5*/
+.conteiner {
+    width: 100%;
+    padding: 100px 0;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align:ri;
+    text-transform:u;
+    letter-spacing: 0.3px;
+    transform: skew(-10deg);
+}
+
+#app2 .conteiner {
+    display: block;
+}
+
+.information-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ETAPA 6*/
+form input, form textarea, form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+form textarea {
+    resize: none;
+    height: 180px;
+}
+form button {
+    background: var(--red);
+    color: #ecf0f1;
+    border: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+form button:hover {
+    background-color: #d63333;
+}
+
+/* ETAPA 7 */
+#information .conteiner{
+    display: block;
+}
+
+.information-methods {
+    display: flex;
+    justify-content: space-between;
+}
